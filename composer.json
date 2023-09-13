@@ -1,0 +1,22 @@
+{
+    "name": "b13/text-tracks",
+    "description": "Add Text Track Files (CTT) to videos within TYPO3",
+    "type": "typo3-cms-extension",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+		"php": "^7.4 || ^8.0",
+        "typo3/cms-core": "^10.4 || ^11.5 || ^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "B13\\TextTracks\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "text_tracks"
+        }
+    }
+}

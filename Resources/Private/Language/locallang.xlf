@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:text_tracks/Resources/Private/Language/locallang.xlf" date="2023-09-10T18:22:37Z" product-name="text-tracks">
+		<header/>
+		<body>
+			<trans-unit id="sys_file_metadata.tracks" resname="sys_file_metadata.tracks">
+				<source>Text tracks and time-based data</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_label" resname="sys_file_reference.track_label">
+				<source>Track label</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_label.description" resname="sys_file_reference.track_label">
+				<source>A user-readable title of the text track which is used by the browser when listing available text tracks.</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_language" resname="sys_file_reference.track_language">
+				<source>Track language</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_language.description" resname="sys_file_reference.track_language">
+				<source>Language of the track text data. It must be a valid BCP 47 language tag.</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_type" resname="sys_file_reference.track_type">
+				<source>Track type</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_type.description" resname="sys_file_reference.track_type">
+				<source>How the text track is meant to be used. If omitted the default kind is subtitles.</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_type.subtitles" resname="sys_file_reference.track_type.subtitles">
+				<source>Subtitles</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_type.captions" resname="sys_file_reference.track_type.captions">
+				<source>Captions / Audio Description (for the hearing impaired)</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_type.descriptions" resname="sys_file_reference.track_type.descriptions">
+				<source>Video Description (for the visually impaired)</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_type.chapters" resname="sys_file_reference.track_type.chapters">
+				<source>Chapters</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_type.metadata" resname="sys_file_reference.track_type.metadata">
+				<source>Metadata</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_default" resname="sys_file_reference.track_default">
+				<source>Default attribute</source>
+			</trans-unit>
+			<trans-unit id="sys_file_reference.track_default.description" resname="sys_file_reference.track_default">
+				<source>This attribute indicates that the track should be enabled unless the user's preferences indicate that another track is more appropriate. This may only be used on one track element per media element.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  B13\TextTracks\:
+    resource: '../Classes/*'
+
+  B13\TextTracks\TracksResolver:
+    public: true
