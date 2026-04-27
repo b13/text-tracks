@@ -30,12 +30,12 @@ class VideoTagWithTextTracksRenderer extends VideoTagRenderer
         $this->tracksResolver = $tracksResolver;
     }
 
-    public function getPriority()
+    public function getPriority(): int
     {
         return 20;
     }
 
-    public function render(FileInterface $file, $width, $height, array $options = [])
+    public function render(FileInterface $file, $width, $height, array $options = []): string
     {
         $result = parent::render($file, $width, $height, $options);
         return str_replace('</video>', $this->renderTracks($file) . '</video>', $result);

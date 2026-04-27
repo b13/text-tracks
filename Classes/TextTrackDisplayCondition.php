@@ -39,6 +39,9 @@ class TextTrackDisplayCondition
 
         $fileRepository = GeneralUtility::makeInstance(FileRepository::class);
         $file = $fileRepository->findByUid($fileUid);
+        if ($file === null) {
+            return false;
+        }
         return in_array($file->getMimeType(), $this->possibleMimeTypes, true);
     }
 }
